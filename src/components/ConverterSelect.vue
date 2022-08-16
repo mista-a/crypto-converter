@@ -1,7 +1,7 @@
 <script setup>
-import { onMounted, onUnmounted, ref, watchEffect } from 'vue'
+import { ref, watchEffect } from 'vue'
 import { vClickOutside } from '../directives/vClickOutside'
-import { Api } from '../API/api'
+import { Api } from '../API/API'
 import ConverterItem from './ConverterItem.vue'
 import logAxiosError from '../utils/logAxiosError'
 import IconArrow from './icons/IconArrow.vue'

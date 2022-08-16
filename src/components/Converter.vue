@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch } from 'vue'
-import { Api } from '../API/api'
+import { Api } from '../API/API'
 import ConverterSelect from './ConverterSelect.vue'
 import IconSwap from './icons/IconSwap.vue'
 import CountCoinsInput from './CountCoinsInput.vue'
